@@ -5,7 +5,7 @@ import Dashboard from '../pages/Dashboard';
 
 import Profile from '../pages/Profile';
 import CreateAppointment from '../pages/CreateAppointment';
-import AppointmentCreate from '../pages/AppointmentCreate';
+import AppointmentCreated from '../pages/AppointmentCreated';
 
 const Auth = createStackNavigator();
 
@@ -18,7 +18,7 @@ const AppRoutes: React.FC = () => (
   >
     <Auth.Screen name="Dashboard" component={Dashboard} />
     <Auth.Screen name="CreateAppointment" component={CreateAppointment} />
-    <Auth.Screen name="AppointmentCreate" component={AppointmentCreate} />
+    <Auth.Screen name="AppointmentCreated" component={AppointmentCreated} />
 
     <Auth.Screen name="Profile" component={Profile} />
   </Auth.Navigator>
